@@ -74,9 +74,7 @@ li {
 }
 
 fieldset { 
-  margin: 0 10em;
   display: block;
-  max-width: 800px;
   height: auto;
   width: 100%;
   border: none;
@@ -104,8 +102,21 @@ legend {
   font-size: 1.8em;
 }
 
-@media (max-width: 960px) {
-  fieldset {
-    margin: 0 11px;
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
   }
 }
