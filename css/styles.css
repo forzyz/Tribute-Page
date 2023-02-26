@@ -39,12 +39,13 @@ figure > img {
   width: 70em;
 }
 
-figcaption {
+#img-caption {
   background-color: rgb(237 232 222);
   padding: 1em 1em 1em 1em;
   font-size: 1.1em;
   max-width: 796px;
   text-align: left; 
+  margin: 0 0 15px 0;
 }
 
 i {
@@ -70,7 +71,7 @@ ul > p{
 
 li {
   font-size: 1.5em;
-  width: 80%;
+  padding-bottom: 50px;
 }
 
 fieldset { 
@@ -78,6 +79,7 @@ fieldset {
   height: auto;
   width: 100%;
   border: none;
+  margin: 50px 0;
 }
 
 address {
@@ -89,24 +91,17 @@ address {
   font-size: 1.4em;
 }
 
-li, legend {
-  text-align: left;
-  display: block;
-  width: 100%;
-  margin-top: 20px;
-  padding-top: 5px;
-}
-
 legend {
+  margin: 50px 0 ;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1.8em; 
 }
 
 ul {
-    max-width: 550px;
-    margin: 0 auto 50px auto;
-    text-align: left;
-    line-height: 1.6;
+  max-width: 777px;
+  margin: 0 auto -50px auto;
+  text-align: left;
+  line-height: 1.4;
 }
 
 @media (max-width: 460px) {
@@ -115,8 +110,3 @@ ul {
   }
 }
 
-@media (max-width: 460px) {
-  #main {
-    margin: 0;
-  }
-}
