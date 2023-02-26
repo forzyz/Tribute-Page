@@ -104,3 +104,8 @@ legend {
   font-size: 1.8em;
 }
 
+@media (min-width: 500px) {
+  fieldset {
+    margin: 0 10px;
+  }
+}
