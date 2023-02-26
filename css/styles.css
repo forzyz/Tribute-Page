@@ -28,7 +28,7 @@ h1 {
 
 footer > h1 {
   font-size: 1.7em;
-  margin-bottom: 1.4em;
+  margin: 2em auto;
 }
 
 figure > img {
